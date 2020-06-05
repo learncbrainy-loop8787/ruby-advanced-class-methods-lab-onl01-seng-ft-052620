@@ -7,6 +7,7 @@ class Song
     s.save 
     s
   end 
+  
  
   def self.create_by_name(string_name_of_the_song)
     s = self.new 
